@@ -5,6 +5,7 @@ import { About } from './components/About /About';
 import { Contact } from './components/Contact/Contact';
 import {Work} from './components/Work/Work'
 import { Prime } from './components/Prime/Prime';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/prime' element={<Prime/>}></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }

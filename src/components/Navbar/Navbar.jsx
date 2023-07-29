@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import styles from './Navbar.module.css'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import Logo from "../../images/LOGO.png"
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
 
     <header className={styles.navbar}>
-      <div className={styles.logo}>ashley pliler</div>
+      <Link to='/'><div className={styles.logo}>ASHLEY PLILER</div></Link>
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]} >
           <li>

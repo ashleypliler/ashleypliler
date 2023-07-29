@@ -7,7 +7,7 @@ import glitzz from '../../images/glitzz.JPG'
 import onoyo from '../../images/onoyo.JPG'
 import styles from './Work.module.css'
 import { Link } from 'react-router-dom'
-import Footer from '../Footer/Footer'
+
 
 export const Work = () => {
   return (
@@ -20,7 +20,6 @@ export const Work = () => {
             <a href='https://ashleyallysephotos.pixieset.com/onoyo/'><img src={onoyo}></img></a>
             <a href='https://ashleyallyse.pixieset.com/tylerandkellyreception/'><img src={cookies}></img></a>
         </div>
-        <Footer/>
     </div>
   )
 }

@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    border-bottom: 2px solid  rgb(242, 229, 220);
   }
   
   .menu {
@@ -23,8 +24,9 @@
   
   .navbar a {
     color: #333;
-    font-size: 1.1rem;
-
+    font-size: 1.3rem;
+    font-family: Restora;
+    
   }
   
   .links {
@@ -63,9 +65,10 @@
 
   .logo {
     padding-top:0px;
+    padding-left: 20px;
     font-family: Restora;
-    font-size: 30px;
-    color: 	rgb(252,204,183);
+    font-size: 35px;
+    color: 	rgb(227, 166, 140);
   }
   
   @media screen and (max-width: 720px) {
