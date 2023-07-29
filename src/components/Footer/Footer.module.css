@@ -1,0 +1,17 @@
+.footerContainer {
+    display: flex;
+    position:static;
+    bottom: 0%;
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(242, 229, 220);
+}
+
+.linkContainer {
+    padding: 35px;
+}
+
+.links {
+    height: 40px;
+    width: 40px;
+}
