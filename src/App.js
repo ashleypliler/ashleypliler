@@ -6,12 +6,14 @@ import { Contact } from './components/Contact/Contact';
 import {Work} from './components/Work/Work'
 import { Prime } from './components/Prime/Prime';
 import Footer from './components/Footer/Footer';
+import { Home } from './components/Home/Home';
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' index element={<Work/>}></Route>
+        <Route path='/' index element={<Home/>}></Route>
+        <Route path='/work' index element={<Work/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/prime' element={<Prime/>}></Route>

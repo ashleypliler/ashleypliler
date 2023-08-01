@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Qualey;
+    src: url(../../assets/MaisonDeArtisanFree-Regular.otf)
+  }
+
+.container {
+    margin-bottom: 200px;
+}
+
+.vid {
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 200px;
+  
+  }
+
+  .skills {
+    margin-top: 250px;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: Qualey;
+  }
+
+  .whatido {
+    
+  }
+
+  @media screen and (max-width: 720px) {
+   
+    .skills {
+        margin-top: 50px;
+    }
+}

@@ -9,11 +9,13 @@ export const Navbar = () => {
   return (
 
     <header className={styles.navbar}>
-      <Link to='/'><div className={styles.logo}>ASHLEY PLILER</div></Link>
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]} >
           <li>
-            <a href='/' className={styles.links}>WORK</a>
+            <a href='/' className={styles.links}>HOME</a>
+          </li>
+          <li>
+            <a href='/work' className={styles.links}>WORK</a>
           </li>
           <li>
             <a href='/about' className={styles.links}>ABOUT</a>
