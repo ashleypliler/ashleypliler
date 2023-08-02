@@ -1,7 +1,10 @@
 import React from 'react'
+import { Email } from '../Email /Email'
 
 export const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <Email/>
+    </div>
   )
 }

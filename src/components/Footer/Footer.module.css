@@ -12,6 +12,8 @@
 }
 
 .links {
-    height: 40px;
-    width: 40px;
+    padding-left: 10px;
+    height: 50px;
+    width: 50px;
+    color: black;
 }

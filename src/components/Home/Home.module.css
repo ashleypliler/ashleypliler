@@ -19,14 +19,77 @@
 
   .skills {
     margin-top: 250px;
-    justify-content: center;
-    text-align: center;
-    font-size: 35px;
     font-family: Qualey;
   }
 
+  .what_header {
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+  }
+
+  .header_website {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 20px;
+    float:left;
+    width:35%;
+  }
+
+  .header_design {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 20px;
+    float:left;
+    width:30%;
+  }
+
+  .header_photo {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 20px;
+    float:right;
+    width:35%;
+  }
+
+  .website {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 70px;
+    float:left;
+    width:35%;
+    height:230px;
+    border-right: 1px solid black;
+  }
+
+  .design {
+    font-size: 20px;
+    justify-content: left;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 70px;
+    float:left;
+    width:30%;
+    height:230px;
+  }
+
+  .photos {
+    font-size: 20px;
+    justify-content: left;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 70px;
+    float:right;
+    width:35%;
+    height:230px;
+    border-left: 1px solid black;
+  }
+
   .whatido {
-    
+    display:inline;
+    justify-content: space-between;
   }
 
   @media screen and (max-width: 720px) {
@@ -34,4 +97,10 @@
     .skills {
         margin-top: 50px;
     }
+
+    .header_photo {
+
+        padding-bottom: 0px;
+       
+      }
 }
