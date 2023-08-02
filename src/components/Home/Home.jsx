@@ -17,7 +17,7 @@ export const Home = () => {
           <ul className={styles.website}>
             <li>Front & Back-end web development</li>
             <li>React.js</li>
-            <li>JavaSript</li>
+            <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>+ More</li>
@@ -36,10 +36,10 @@ export const Home = () => {
         <div>
           <ul className={styles.photos}>
             <li>Wedding Videography</li>
-            <li>Products</li>
-            <li>Family Shoots</li>
-            <li>Couple Shoots</li>
-            <li>Portrait Shoots</li>
+            <li>Product</li>
+            <li>Family</li>
+            <li>Couples</li>
+            <li>Portraits</li>
             <li>+ More</li>
           </ul>
         </div>
