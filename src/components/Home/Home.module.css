@@ -26,7 +26,67 @@
     justify-content: center;
     text-align: center;
     font-size: 50px;
+    padding-bottom: 60px;
+  }
+
+  .work_header {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    width: 50vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+
+  .home_pic {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 50vw;
+    float:right;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  .pic {
+    height: 510px;
+    width: 380px;
+  }
+
+  .clients_header {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
     padding-bottom: 30px;
+    font-size: 27px;
+  }
+
+  .clients {
+    padding: 10px;
+    padding-left: 60px;
+    font-size: 20px;
+    justify-content: left;
+    text-align: left;
+  }
+
+  .contact_btn {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Qualey;
+    margin-top: 50px;
+    color: black;
+    background-color: rgb(242, 229, 220);
+    cursor: pointer;
+  }
+
+  .contact_btn:hover {
+    opacity: .5;
   }
 
   .header_website {

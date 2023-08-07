@@ -22,11 +22,11 @@ export const Email = () => {
   return (
     <div>
         <form className={styles.form} ref={form} onSubmit={sendEmail}>
-            <label>NAME:</label>
+            <label className={styles.form_label}>NAME:</label>
             <input type="text" name="user_name" />
-            <label>EMAIL:</label>
+            <label className={styles.form_label}>EMAIL:</label>
             <input type="email" name="user_email" />
-            <label>MESSAGE:</label>
+            <label className={styles.form_label}>MESSAGE:</label>
             <textarea name="message" />
             <input type="submit" value="SEND" />
         </form>
