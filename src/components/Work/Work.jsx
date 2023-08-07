@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom'
 export const Work = () => {
   return (
     <div className={styles.portfolio}>
+        <div>Click on each picture of a different project!</div>
         <div className={styles.container}>
             <a href='https://www.youtube.com/watch?v=ghFuGxeND4U&t=3s'><img src={golden}></img></a>
             <Link to='/prime'><img src={prime}></img></Link> 
