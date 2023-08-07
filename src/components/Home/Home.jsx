@@ -55,10 +55,10 @@ export const Home = () => {
           <div>
             <ul >
               <li className={styles.clients}> - Website Design.</li>
-              <li className={styles.clients}> - Website build out connected to a domain.</li>
+              <li className={styles.clients}> - Front-end Website Development.</li>
               <li className={styles.clients}> - Graphic Design (flyers, logos, cards, etc.).</li>
-              <li className={styles.clients}> - Wedding Videography.</li>
-              <li className={styles.clients}> - Photos: Family, Couple, and Portait shoots.</li>
+              <li className={styles.clients}> - Wedding & Event Videography.</li>
+              <li className={styles.clients}> - Photos: Product, Family, Couple, and Portait shoots.</li>
             </ul>
           </div>
           <button className={styles.contact_btn}><Link to='/contact'>Contact me Here!</Link></button>

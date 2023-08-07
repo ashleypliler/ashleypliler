@@ -83,6 +83,7 @@
     color: black;
     background-color: rgb(242, 229, 220);
     cursor: pointer;
+    border: 1px solid black;
   }
 
   .contact_btn:hover {
