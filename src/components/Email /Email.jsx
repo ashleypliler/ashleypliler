@@ -14,6 +14,8 @@ export const Email = () => {
         .then((result) => {
             console.log(result.text);
             console.log('message sent')
+            alert('Message Sent! I look forward to connecting with you!:)')
+            form.current.reset();
         }, (error) => {
             console.log(error.text);
         });
@@ -28,7 +30,7 @@ export const Email = () => {
             <input type="email" name="user_email" />
             <label className={styles.form_label}>MESSAGE:</label>
             <textarea name="message" />
-            <input type="submit" value="SEND" />
+            <input className={styles.submit} type="submit" value="SEND" />
         </form>
     </div>
   )

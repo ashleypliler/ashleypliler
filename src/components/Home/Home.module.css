@@ -35,27 +35,29 @@
     font-size: 40px;
     float: left;
     width: 50vw;
+    height: 510px;
     margin-top: 30px;
-    margin-bottom: 30px;
     padding-top: 30px;
-    padding-left: 20px;
+    padding-left: 60px;
+    background-color: rgb(249, 249, 249);
   }
 
 
   .home_pic {
     margin-top: 30px;
-    margin-bottom: 40px;
     display: flex;
+    height: 510px;
     width: 50vw;
     float:right;
     justify-content: center;
     align-items: center;
     padding-right: 20px;
+    background-color: rgb(249, 249, 249);
   }
 
   .pic {
-    height: 510px;
-    width: 380px;
+    height: 500px;
+    width: 370px;
   }
 
   .clients_header {
@@ -165,3 +167,4 @@
        
       }
 }
+

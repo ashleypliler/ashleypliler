@@ -61,4 +61,8 @@
       border: none;
       margin-bottom: 200px;
     }
+
+    .submit:hover {
+      opacity: .5;
+    }
   
