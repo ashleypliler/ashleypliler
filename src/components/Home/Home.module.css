@@ -20,6 +20,7 @@
   .skills {
     margin-top: 250px;
     font-family: Qualey;
+ 
   }
 
   .what_header {
@@ -153,6 +154,8 @@
   .whatido {
     display:inline;
     justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   @media screen and (max-width: 720px) {

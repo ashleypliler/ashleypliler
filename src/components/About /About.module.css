@@ -16,10 +16,13 @@
     width: 450px;
     justify-content: center;
     padding: 25px;
+    
  }
  
  .words {
     font-family: Restora;
+    padding-left: 40px;
+    padding-right: 40px;
  }
 
 @media screen and (max-width: 720px) {
